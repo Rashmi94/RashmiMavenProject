@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: verifyJenkinTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.437 s <<< FAILURE! -- in verifyJenkinTest
-verifyJenkinTest.test1 -- Time elapsed: 0.012 s <<< FAILURE!
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1.088 s <<< FAILURE! -- in verifyJenkinTest
+verifyJenkinTest.test1 -- Time elapsed: 0.022 s <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -41,7 +41,7 @@ java.lang.AssertionError: expected [true] but found [false]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-verifyJenkinTest.test2 -- Time elapsed: 0.002 s <<< FAILURE!
+verifyJenkinTest.test2 -- Time elapsed: 0.001 s <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -80,7 +80,7 @@ java.lang.AssertionError: expected [true] but found [false]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-verifyJenkinTest.test3 -- Time elapsed: 0.001 s <<< FAILURE!
+verifyJenkinTest.test3 -- Time elapsed: 0.003 s <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -119,7 +119,7 @@ java.lang.AssertionError: expected [true] but found [false]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-verifyJenkinTest.test4 -- Time elapsed: 0.001 s <<< FAILURE!
+verifyJenkinTest.test4 -- Time elapsed: 0.002 s <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)

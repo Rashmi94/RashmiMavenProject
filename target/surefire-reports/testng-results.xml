@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="10" passed="6" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-31T16:16:18 IST" name="Surefire suite" finished-at="2023-08-31T16:16:18 IST" duration-ms="51">
+  <suite started-at="2023-11-16T23:12:57 IST" name="All Test Suite" finished-at="2023-11-16T23:12:57 IST" duration-ms="53">
     <groups>
     </groups>
-    <test started-at="2023-08-31T16:16:18 IST" name="Surefire test" finished-at="2023-08-31T16:16:18 IST" duration-ms="51">
+    <test started-at="2023-11-16T23:12:57 IST" name="/Users/rashmi/RashmiMavenProject" finished-at="2023-11-16T23:12:57 IST" duration-ms="53">
       <class name="verifyJenkinTest">
-        <test-method signature="test1()[pri:0, instance:verifyJenkinTest@40f08448]" started-at="2023-08-31T16:16:18 IST" name="test1" finished-at="2023-08-31T16:16:18 IST" duration-ms="10" status="FAIL">
+        <test-method signature="test1()[pri:0, instance:verifyJenkinTest@5762806e]" started-at="2023-11-16T23:12:57 IST" name="test1" finished-at="2023-11-16T23:12:57 IST" duration-ms="13" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -42,10 +42,9 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
 at org.testng.TestNG.runSuites(TestNG.java:1114)
 at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
@@ -56,11 +55,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test10()[pri:0, instance:verifyJenkinTest@40f08448]" started-at="2023-08-31T16:16:18 IST" name="test10" finished-at="2023-08-31T16:16:18 IST" duration-ms="1" status="PASS">
+        <test-method signature="test10()[pri:0, instance:verifyJenkinTest@5762806e]" started-at="2023-11-16T23:12:57 IST" name="test10" finished-at="2023-11-16T23:12:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test10 -->
-        <test-method signature="test2()[pri:0, instance:verifyJenkinTest@40f08448]" started-at="2023-08-31T16:16:18 IST" name="test2" finished-at="2023-08-31T16:16:18 IST" duration-ms="0" status="FAIL">
+        <test-method signature="test2()[pri:0, instance:verifyJenkinTest@5762806e]" started-at="2023-11-16T23:12:57 IST" name="test2" finished-at="2023-11-16T23:12:57 IST" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -95,10 +94,9 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
 at org.testng.TestNG.runSuites(TestNG.java:1114)
 at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
@@ -109,7 +107,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:0, instance:verifyJenkinTest@40f08448]" started-at="2023-08-31T16:16:18 IST" name="test3" finished-at="2023-08-31T16:16:18 IST" duration-ms="0" status="FAIL">
+        <test-method signature="test3()[pri:0, instance:verifyJenkinTest@5762806e]" started-at="2023-11-16T23:12:57 IST" name="test3" finished-at="2023-11-16T23:12:57 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -144,10 +142,9 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
 at org.testng.TestNG.runSuites(TestNG.java:1114)
 at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
@@ -158,7 +155,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method signature="test4()[pri:0, instance:verifyJenkinTest@40f08448]" started-at="2023-08-31T16:16:18 IST" name="test4" finished-at="2023-08-31T16:16:18 IST" duration-ms="1" status="FAIL">
+        <test-method signature="test4()[pri:0, instance:verifyJenkinTest@5762806e]" started-at="2023-11-16T23:12:57 IST" name="test4" finished-at="2023-11-16T23:12:57 IST" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -193,10 +190,9 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
 at org.testng.TestNG.runSuites(TestNG.java:1114)
 at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
@@ -207,27 +203,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method signature="test6()[pri:0, instance:verifyJenkinTest@40f08448]" started-at="2023-08-31T16:16:18 IST" name="test6" finished-at="2023-08-31T16:16:18 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method signature="test5()[pri:0, instance:verifyJenkinTest@40f08448]" started-at="2023-08-31T16:16:18 IST" name="test5" finished-at="2023-08-31T16:16:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="test5()[pri:0, instance:verifyJenkinTest@5762806e]" started-at="2023-11-16T23:12:57 IST" name="test5" finished-at="2023-11-16T23:12:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5 -->
-        <test-method signature="test7()[pri:0, instance:verifyJenkinTest@40f08448]" started-at="2023-08-31T16:16:18 IST" name="test7" finished-at="2023-08-31T16:16:18 IST" duration-ms="1" status="PASS">
+        <test-method signature="test6()[pri:0, instance:verifyJenkinTest@5762806e]" started-at="2023-11-16T23:12:57 IST" name="test6" finished-at="2023-11-16T23:12:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test7()[pri:0, instance:verifyJenkinTest@5762806e]" started-at="2023-11-16T23:12:57 IST" name="test7" finished-at="2023-11-16T23:12:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test7 -->
-        <test-method signature="test8()[pri:0, instance:verifyJenkinTest@40f08448]" started-at="2023-08-31T16:16:18 IST" name="test8" finished-at="2023-08-31T16:16:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="test8()[pri:0, instance:verifyJenkinTest@5762806e]" started-at="2023-11-16T23:12:57 IST" name="test8" finished-at="2023-11-16T23:12:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test8 -->
-        <test-method signature="test9()[pri:0, instance:verifyJenkinTest@40f08448]" started-at="2023-08-31T16:16:18 IST" name="test9" finished-at="2023-08-31T16:16:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="test9()[pri:0, instance:verifyJenkinTest@5762806e]" started-at="2023-11-16T23:12:57 IST" name="test9" finished-at="2023-11-16T23:12:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test9 -->
       </class> <!-- verifyJenkinTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- /Users/rashmi/RashmiMavenProject -->
+  </suite> <!-- All Test Suite -->
 </testng-results>
