@@ -7,6 +7,7 @@ public class verifyJenkinTest {
     {
         System.out.println("test1");
         Assert.assertTrue(true);
+        System.out.println(System.getProperty("userName"));
     }
     @Test
     public void test2()
