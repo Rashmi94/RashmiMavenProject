@@ -34,14 +34,14 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.1.2</version> <!-- or your desired version -->
                 <configuration>
-                    <!--<systemPropertyVariables>
+                  <!--  <systemPropertyVariables>
                         &lt;!&ndash;suppress UnresolvedMavenProperty &ndash;&gt;
                         <userName>${DuserName}</userName>
-                    </systemPropertyVariables>-->
+                    </systemPropertyVariables>
                     <suiteXmlFiles>
-                        <!--suppress UnresolvedMavenProperty -->
+                        &lt;!&ndash;suppress UnresolvedMavenProperty &ndash;&gt;
                         <suiteXmlFile>${suiteXMLFile}</suiteXmlFile>
-                    </suiteXmlFiles>
+                    </suiteXmlFiles>-->
                 </configuration>
             </plugin>
         </plugins>
