@@ -2,14 +2,14 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class verifyJenkinTest {
-    @Test
+    @Test(groups = "smoke")
     public void test1()
     {
         System.out.println("test1");
         Assert.assertTrue(true);
         System.out.println(System.getProperty("userName"));
     }
-    @Test
+    @Test(groups = "smoke")
     public void test2()
     {
         System.out.println("test2");
