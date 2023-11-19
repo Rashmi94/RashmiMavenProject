@@ -38,6 +38,7 @@
                         <!--suppress UnresolvedMavenProperty -->
                         <userName>${DuserName}</userName>
                     </systemPropertyVariables>
+
                    <!-- <suiteXmlFiles>
                         &lt;!&ndash;suppress UnresolvedMavenProperty &ndash;&gt;
                         <suiteXmlFile>${suiteXMLFile}</suiteXmlFile>
