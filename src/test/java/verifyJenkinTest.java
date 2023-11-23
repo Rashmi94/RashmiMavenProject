@@ -8,6 +8,7 @@ public class verifyJenkinTest {
         System.out.println("test1");
         Assert.assertTrue(true);
         System.out.println(System.getProperty("userName"));
+        System.out.printf(System.getProperty("Environment"));
     }
     @Test(groups = "smoke")
     public void test2()
