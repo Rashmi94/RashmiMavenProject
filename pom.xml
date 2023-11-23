@@ -38,7 +38,7 @@
                         <!--suppress UnresolvedMavenProperty -->
                         <userName>${DuserName}</userName>
                         <!--suppress UnresolvedMavenProperty -->
-                        <Environment>${Environment}}</Environment>
+                        <Environment>${DEnvironment}</Environment>
                     </systemPropertyVariables>
 
                    <!-- <suiteXmlFiles>
